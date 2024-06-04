@@ -1,0 +1,48 @@
+const products = [
+    {
+        name: 'Airpods Wireless',
+        image: '/images/airpods.jpg',
+        description: 'this is airpods',
+        brand: 'Apple',
+        category: 'Electornics',
+        price: 88.99,
+        countInStock: 10,
+        rating: 4.5,
+        numReviews: 12,
+    },
+    {
+        name: 'Alexa',
+        image: '/images/alexa.jpg',
+        description: 'this is alexa',
+        brand: 'Amazon',
+        category: 'Electornics',
+        price: 250.58,
+        countInStock: 5,
+        rating: 3.5,
+        numReviews: 170,
+    },
+    {
+        name: 'Samsung Mobile',
+        image: '/images/phone.jpg',
+        description: 'this is mobile',
+        brand: 'Samsung',
+        category: 'Electornics',
+        price: 1000.45,
+        countInStock: 100,
+        rating: 4.6,
+        numReviews: 1200,
+    },
+    {
+        name: 'Playstation',
+        image: '/images/playstation.jpg',
+        description: 'this is Playstation',
+        brand: 'Playstation',
+        category: 'Electornics',
+        price: 450.56,
+        countInStock: 60,
+        rating: 4.8,
+        numReviews: 1350,
+    },
+]
+
+export default products;
